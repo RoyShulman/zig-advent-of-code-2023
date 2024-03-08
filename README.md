@@ -1,3 +1,3 @@
-# Zig advent of code 2024
+# Zig advent of code 2023
 
 learning some zig yay!
