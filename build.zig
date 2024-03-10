@@ -5,6 +5,7 @@ pub fn build(b: *std.Build) void {
     const optimize = b.standardOptimizeOption(.{});
 
     add_day_target(b, "day1", target, optimize);
+    add_day_target(b, "day2", target, optimize);
 
     const unit_tests = b.addTest(.{
         .root_source_file = .{ .path = "src/unit_tests.zig" },
